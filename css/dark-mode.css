@@ -1,0 +1,211 @@
+/* DARK MODE STYLES */
+
+body.dark-mode {
+  background-color: var(--primary-dark);
+  color: var(--text-dark);
+}
+
+body.dark-mode a {
+  color: #60a5fa;
+}
+
+body.dark-mode a:hover {
+  color: #93c5fd;
+}
+
+body.dark-mode section.hero {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--secondary-dark) 100%);
+}
+
+body.dark-mode section.alternate {
+  background: var(--secondary-light);
+}
+
+body.dark-mode .card {
+  background: var(--primary-light);
+  border-color: var(--border-color);
+  color: var(--text-dark);
+}
+
+body.dark-mode .card-glass {
+  background: rgba(30, 30, 30, 0.8);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-dark);
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode input[type="email"],
+body.dark-mode input[type="phone"],
+body.dark-mode input[type="password"],
+body.dark-mode input[type="number"],
+body.dark-mode textarea,
+body.dark-mode select {
+  background: var(--primary-light);
+  border-color: var(--border-color);
+  color: var(--text-dark);
+}
+
+body.dark-mode input[type="text"]:focus,
+body.dark-mode input[type="email"]:focus,
+body.dark-mode input[type="phone"]:focus,
+body.dark-mode input[type="password"]:focus,
+body.dark-mode input[type="number"]:focus,
+body.dark-mode textarea:focus,
+body.dark-mode select:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.1);
+}
+
+body.dark-mode .btn-light {
+  background: var(--primary-light);
+  color: var(--text-dark);
+  border-color: var(--text-dark);
+}
+
+body.dark-mode .btn-dark {
+  background: var(--secondary-dark);
+  color: var(--text-dark);
+  border-color: var(--border-color);
+}
+
+body.dark-mode .btn-secondary {
+  color: #60a5fa;
+  border-color: #60a5fa;
+}
+
+body.dark-mode .btn-secondary:hover {
+  background: rgba(96, 165, 250, 0.1);
+}
+
+body.dark-mode .badge {
+  background: rgba(96, 165, 250, 0.2);
+  color: #60a5fa;
+}
+
+body.dark-mode .badge-success {
+  background: rgba(16, 185, 129, 0.2);
+  color: #10b981;
+}
+
+body.dark-mode .badge-error {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+body.dark-mode .text-muted {
+  color: #999999;
+}
+
+body.dark-mode .text-accent {
+  color: #60a5fa;
+}
+
+body.dark-mode .divider {
+  background: var(--border-color);
+}
+
+body.dark-mode header,
+body.dark-mode nav {
+  background: var(--primary-light);
+  border-bottom-color: var(--border-color);
+}
+
+body.dark-mode header a,
+body.dark-mode nav a {
+  color: var(--text-dark);
+}
+
+body.dark-mode header a:hover,
+body.dark-mode nav a:hover {
+  color: #60a5fa;
+}
+
+body.dark-mode footer {
+  background: var(--secondary-light);
+  border-top-color: var(--border-color);
+  color: var(--text-dark);
+}
+
+body.dark-mode table {
+  background: var(--primary-light);
+  color: var(--text-dark);
+}
+
+body.dark-mode table th {
+  background: var(--secondary-light);
+  color: var(--text-dark);
+}
+
+body.dark-mode table td {
+  border-color: var(--border-color);
+}
+
+body.dark-mode table tbody tr:hover {
+  background: var(--secondary-light);
+}
+
+body.dark-mode .modal {
+  background: var(--primary-light);
+  color: var(--text-dark);
+}
+
+body.dark-mode .modal-overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+body.dark-mode .alert {
+  background: var(--primary-light);
+  border-color: var(--border-color);
+  color: var(--text-dark);
+}
+
+body.dark-mode .alert-success {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.1);
+}
+
+body.dark-mode .alert-error {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+body.dark-mode .loading {
+  border-color: var(--border-color);
+  border-top-color: #60a5fa;
+}
+
+body.dark-mode ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body.dark-mode ::-webkit-scrollbar-track {
+  background: var(--primary-dark);
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 5px;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #505050;
+}
+
+.theme-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: var(--text-dark);
+  transition: color var(--transition-fast);
+}
+
+.theme-toggle:hover {
+  color: var(--accent-color);
+}
+
+.theme-toggle:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
